@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Menu Años</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04.1---Desktop---FERIAS-/-Selección-Rollover" transform="translate(-52.000000, -170.000000)" stroke="#000000">
+            <g id="Menu-Años" transform="translate(52.000000, 170.000000)">
+                <polyline id="Triangle" transform="translate(3.500000, 6.000000) rotate(-270.000000) translate(-3.500000, -6.000000) " points="9 9 3.5 3 -2 9"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

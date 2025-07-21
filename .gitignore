@@ -1,0 +1,18 @@
+# Ignorar archivos y carpetas comunes de WordPress
+/wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+!wp-content/plugins/
+
+# Ignorar temas predeterminados de WordPress
+wp-content/themes/twenty*/
+
+# Ignorar archivos temporales y de configuración
+*.log
+*.tmp
+*.bak
+*.swp
+*.sql
+.DS_Store
+Thumbs.db

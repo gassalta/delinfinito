@@ -1,0 +1,577 @@
+# Translation of Plugins - Contact Form 7 &#8211; Dynamic Text Extension - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Contact Form 7 &#8211; Dynamic Text Extension - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-09 20:35:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Contact Form 7 &#8211; Dynamic Text Extension - Stable (latest release)\n"
+
+#: contact-form-7-dynamic-text-extension.php:66
+msgid "<em>Contact Form 7</em> version %s or higher is required."
+msgstr "Se requiere <em>Contact Form 7</em> versión %s o superior."
+
+#: contact-form-7-dynamic-text-extension.php:64
+msgid "Form validation for dynamic fields created with <em>Contact Form 7 - Dynamic Text Extension</em> is not available!"
+msgstr "¡La validación de formularios para campos dinámicos creados con <em>Contact Form 7 - Dynamic Text Extension</em> no está disponible!"
+
+#: includes/validation.php:225 includes/validation.php:244
+msgid "Meta Key"
+msgstr "Clave meta"
+
+#: includes/validation.php:225 includes/validation.php:244
+msgid "User Data Key"
+msgstr "Clave de datos de usuario"
+
+#: includes/validation.php:220 includes/validation.php:239
+msgid "[%1$s %2$s]: Access to key \"%3$s\" in shortcode \"%4$s\" is disallowed by default. To allow access, add \"%3$s\" to the %5$s Allow List."
+msgstr "[%1$s %2$s]: El acceso a la clave «%3$s» en el shortcode «%4$s» no está permitido por defecto. Para permitir el acceso, añade «%3$s» a la lista de permitidos %5$s."
+
+#: includes/utilities.php:861
+msgid "CF7 DTX: Access denied to key: \"%1$s\" in dynamic contact form shortcode: [%2$s].  Please add this key to the %3$s at %4$s"
+msgstr "CF7 DTX: Acceso denegado a la clave: «%1$s» en el shortcode dinámico del formulario de contacto: [%2$s].  Por favor, añade esta clave al %3$s en %4$s"
+
+#: includes/admin/update-check.php:120
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: includes/admin/update-check.php:116
+msgid "Scan &amp; Resolve"
+msgstr "Explorar y resolver"
+
+#: includes/admin/update-check.php:114
+msgid "Edit Settings"
+msgstr "Editar los ajustes"
+
+#: includes/admin/update-check.php:113
+msgid "CF7 DTX: Shortcode data access requires allow-listing."
+msgstr "CF7 DTX: El acceso a los datos del shortcode requiere una lista permitida."
+
+#: includes/admin/settings.php:658
+msgid "Enabled - Allow Access to User Data"
+msgstr "Activado - Permitir el acceso a los datos del usuario"
+
+#: includes/admin/settings.php:657
+msgid "Disabled - Only Allow Access to User Data Key Allow List"
+msgstr "Desactivado - Permitir sólo el acceso a los datos del usuario lista de claves permitidas"
+
+#: includes/admin/settings.php:654
+msgid "**Use with caution.**  Should only be enabled if all authorized users with editor privileges (Contributor+) are trusted and should have access to this data.  All of the current user's data fields will be accessible via the CF7_get_current_user shortcode.  If in doubt, use the Allow List to allow only specific keys."
+msgstr "**Utilizar con precaución.** Sólo debe activarse si todos los usuarios autorizados con privilegios de editor (Colaborador+) son de confianza y deben tener acceso a estos datos.  Todos los campos de datos del usuario actual serán accesibles mediante el shortcode CF7_get_current_user.  En caso de duda, utiliza la Lista de Permisos para permitir sólo claves específicas."
+
+#: includes/admin/settings.php:653
+msgid "Allow Access to All User Data"
+msgstr "Permitir el acceso a todos los datos del usuario"
+
+#: includes/admin/settings.php:647
+msgid "Allow access to these specific user data keys.   Enter one per line."
+msgstr "Permitir el acceso a estas claves de datos de usuario específicas.   Introduce una por línea."
+
+#: includes/admin/settings.php:646 includes/utilities.php:850
+msgid "User Data Key Allow List"
+msgstr "Datos de usuario lista de claves permitidas"
+
+#: includes/admin/settings.php:640
+msgid "Enabled - Allow Access to All Post Metadata"
+msgstr "Activado - Permitir el acceso a todos los metadatos de la entrada"
+
+#: includes/admin/settings.php:639
+msgid "Disabled - Only Allow Access to Meta Key Allow List"
+msgstr "Desactivado - Permitir sólo el acceso a la lista de metaclaves permitidas"
+
+#: includes/admin/settings.php:636
+msgid "**Use with caution.**  Should only be enabled if all authorized users with editor privileges (Contributor+) are trusted and should have access to this data.  All metadata from any post (including custom post types) will be accessible via the CF7_get_custom_field shortcode.  If in doubt, use the Allow List to allow only specific keys."
+msgstr "**Utilizar con precaución.** Sólo debe activarse si todos los usuarios autorizados con privilegios de editor (Colaborador+) son de confianza y deben tener acceso a estos datos.  Todos los metadatos de cualquier entrada (incluidos los tipos de entrada personalizados) serán accesibles mediante el shortcode CF7_get_custom_field.  En caso de duda, utiliza la Lista de Permisos para permitir sólo claves específicas."
+
+#: includes/admin/settings.php:635
+msgid "Allow Access to All Post Metadata"
+msgstr "Permitir el acceso a todos los metadatos de la entrada"
+
+#: includes/admin/settings.php:629
+msgid "Allow access to these specific post metadata keys.  Enter one per line."
+msgstr "Permitir el acceso a estas claves específicas de metadatos de la entrada.  Introduce una por línea."
+
+#: includes/admin/settings.php:628 includes/utilities.php:846
+msgid "Meta Key Allow List"
+msgstr "Lista de claves meta permitidas"
+
+#: includes/admin/settings.php:615
+msgid "Control which user data the CF7 DTX shortcodes (CF7_get_current_user) can access.  By default, all user data is protected, so you can open up access through these settings.  Keep in mind that users with Contributor+ credentials can add shortcodes and therefore access this data, so make sure not to expose anything sensitive."
+msgstr "Controla a qué datos de usuario pueden acceder los shortcodes CF7 DTX (CF7_get_current_user).  Por defecto, todos los datos de usuario están protegidos, así que puedes abrir el acceso a través de estos ajustes.  Ten en cuenta que los usuarios con credenciales de Colaborador+ pueden añadir shortcodes y, por tanto, acceder a estos datos, así que asegúrate de no exponer nada sensible."
+
+#: includes/admin/settings.php:614
+msgid "User Data Access"
+msgstr "Acceso a datos de usuario"
+
+#: includes/admin/settings.php:610
+msgid "Control which post metadata the CF7 DTX shortcodes (CF7_get_custom_field) can access.  By default, all metadata is protected, so you can open up access through these settings.  Keep in mind that users with Contributor+ credentials can add shortcodes and therefore access this data, so make sure not to expose anything sensitive."
+msgstr "Controla a qué metadatos de la entrada pueden acceder los shortcodes CF7 DTX (CF7_get_custom_field).  Por defecto, todos los metadatos están protegidos, así que puedes abrir el acceso a través de estos ajustes.  Ten en cuenta que los usuarios con credenciales de Colaborador+ pueden añadir shortcodes y, por tanto, acceder a estos datos, así que asegúrate de no exponer nada sensible."
+
+#: includes/admin/settings.php:609
+msgid "Post Meta Access"
+msgstr "Acceso a los metadatos de la entrada"
+
+#: includes/admin/settings.php:600
+msgid "Back to Settings"
+msgstr "Volver a los ajustes"
+
+#: includes/admin/settings.php:583
+msgid "No Keys Selected"
+msgstr "No hay claves seleccionadas"
+
+#: includes/admin/settings.php:579
+msgid "User Data Keys Added"
+msgstr "Claves de datos de usuario añadidas"
+
+#: includes/admin/settings.php:576
+msgid "Meta Keys Added"
+msgstr "Claves meta añadidas"
+
+#: includes/admin/settings.php:499
+msgid "Add Selected Keys to Allow Lists"
+msgstr "Añadir las claves seleccionadas a las listas de permitidas"
+
+#: includes/admin/settings.php:436 includes/admin/settings.php:611
+#: includes/admin/settings.php:616 includes/admin/update-check.php:118
+msgid "More Information"
+msgstr "Más información"
+
+#: includes/admin/settings.php:435
+msgid "Note that keys which are already in the allow list are displayed but marked as already selected."
+msgstr "Ten en cuenta que las claves que ya están en la lista de permitidas se muestran pero están marcadas como ya seleccionadas."
+
+#: includes/admin/settings.php:434
+msgid "Review the keys below and confirm that you want to allow access, then select meta and/or user keys to add them to the relevant allow list.  Any keys for sensitive data should be removed by editing your contact form."
+msgstr "Revisa las claves de abajo y confirma que quieres permitir el acceso, luego selecciona las claves meta y/o de usuario para añadirlas a la lista de permitidas correspondiente.  Cualquier clave para datos sensibles debe eliminarse editando tu formulario de contacto."
+
+#: includes/admin/settings.php:433
+msgid "Only keys on the allow list will return their value when accessed.  Attempting to access keys that are not on the allow list via DTX shortcodes will return an empty string and throw a warning message."
+msgstr "Sólo las claves de la lista permitida devolverán su valor cuando se acceda a ellas.  Si intentas acceder a claves que no están en la lista permitida a través de los códigos abreviados DTX, se devolverá una cadena vacía y aparecerá un mensaje de advertencia."
+
+#: includes/admin/settings.php:432
+msgid "Shortcodes accessing potentially sensitive Post Meta or User Data were detected in the forms listed below."
+msgstr "Se detectaron shortcodes que accedían a metadatos de publicación o datos de usuario potencialmente sensibles en los formularios que se indican a continuación."
+
+#: includes/admin/settings.php:426
+msgid "Scan of %1$s forms complete. All keys detected are already on allow list.  No action necessary for these forms."
+msgstr "Exploración de %1$s formularios completada. Todas las claves detectadas ya están en la lista de permitidas.  No es necesaria ninguna acción para estos formularios."
+
+#: includes/admin/settings.php:363
+msgid "Scan %1$s more forms"
+msgstr "Explorar %1$s formularios más"
+
+#: includes/admin/settings.php:358
+msgid "%1$s forms scanned.  There may be more forms to scan."
+msgstr "%1$s formularios explorados.  Puede que haya más formularios por explorar."
+
+#: includes/admin/settings.php:347
+msgid "Scan complete. No keys detected."
+msgstr "Exploración completada. No se han detectado claves."
+
+#: includes/admin/settings.php:155
+msgid "Settings Saved"
+msgstr "Ajustes guardados"
+
+#: includes/admin/settings.php:140
+msgid "DTX: Form Shortcode Scan Results"
+msgstr "DTX: Resultados de la exploración de shortcodes de formulario"
+
+#: includes/admin/settings.php:128
+msgid "DTX: Keys Added To Allow List"
+msgstr "DTX: Claves añadidas a la lista de permitidas"
+
+#: includes/admin/settings.php:115
+msgid "Notice Dismissed.  You can run the scan any time from the CF7 DTX settings page"
+msgstr "Aviso descartado.  Puedes ejecutar la exploración en cualquier momento desde la página de ajustes de CF7 DTX"
+
+#: includes/admin.php:333
+msgid "Make checkboxes exclusive"
+msgstr "Haz que las casillas sean exclusivas"
+
+#: includes/admin.php:326
+msgid "Exclusive"
+msgstr "Exclusivas"
+
+#: includes/admin.php:427
+msgid "May impact page performance."
+msgstr "Puede afectar al rendimiento de la página."
+
+#: contact-form-7-dynamic-text-extension.php:124
+msgid "a numeric input field displayed as a slider between a minimum and maximum range"
+msgstr "un campo de entrada numérico mostrado como un control deslizante entre un rango mínimo y máximo"
+
+#: contact-form-7-dynamic-text-extension.php:119
+msgid "a numeric input field displayed as a number spinbox"
+msgstr "un campo de entrada numérico mostrado como un cuadro giratorio numérico"
+
+#: includes/validation.php:301
+msgid "The dynamic email address for the sender does not belong to the site domain."
+msgstr "La dirección de correo electrónico dinámica del remitente no pertenece al dominio del sitio."
+
+#: includes/validation.php:296
+msgid "The default dynamic value does not result in a valid email address."
+msgstr "El valor por defecto dinámico no da como resultado una dirección de correo electrónico válida."
+
+#: includes/validation.php:290
+msgid "The dynamic form tag must be required or have a default value."
+msgstr "La etiqueta de formulario dinámico debe ser obligatoria o tener un valor por defecto."
+
+#: includes/validation.php:285
+msgid "The dynamic hidden form tag must have a default value."
+msgstr "La etiqueta de formulario oculto dinámico debe tener un valor por defecto."
+
+#: includes/validation.php:278
+msgid "Only email, dynamic email, hidden, or dynamic hidden form tags can be used for email addresses."
+msgstr "Solo se pueden usar correo electrónico, correo electrónico dinámico, oculto o oculto dinámico para las direcciones de correo electrónico."
+
+#: includes/validation.php:29
+msgid "Please enter a valid date."
+msgstr "Por favor, introduce una fecha válida."
+
+#: includes/validation.php:28
+msgid "There is a field with an invalid date"
+msgstr "Hay un campo con una fecha no válida"
+
+#: includes/validation.php:25
+msgid "Please enter a valid number."
+msgstr "Por favor, introduce un número válido."
+
+#: includes/validation.php:24
+msgid "There is a field with an invalid number"
+msgstr "Hay un campo con un número no válido"
+
+#: includes/validation.php:21
+msgid "Please enter a valid phone number."
+msgstr "Por favor, introduce un número de teléfono válido."
+
+#: includes/validation.php:20
+msgid "There is a field with an invalid phone number"
+msgstr "Hay un campo con un número de teléfono no válido"
+
+#: includes/validation.php:17
+msgid "Please enter a valid email address."
+msgstr "Por favor, introduce una dirección de correo electrónico válida."
+
+#: includes/validation.php:16
+msgid "There is a field with an invalid email address"
+msgstr "Hay un campo con una dirección de correo electrónico no válida"
+
+#: includes/admin.php:453
+msgid "Akismet"
+msgstr "Akismet"
+
+#: includes/admin.php:447
+msgid "This field requires author's name"
+msgstr "Este campo requiere el nombre del autor"
+
+#: includes/admin.php:443
+msgid "This field requires author's URL"
+msgstr "Este campo requiere la URL del autor"
+
+#: includes/admin.php:439
+msgid "This field requires author's email address"
+msgstr "Este campo requiere la dirección de correo electrónico del autor"
+
+#: includes/admin.php:353
+msgid "Selected Default"
+msgstr "Valor por defecto"
+
+#: includes/admin.php:347
+msgid "Optionally define the option that is selected by default. This can be different than the first [blank] option. If options use key/value pairs, only define the key here."
+msgstr "Define opcionalmente la opción que se selecciona por defecto. Puede ser diferente de la primera opción [en blanco]. Si las opciones utilizan pares clave/valor, define aquí sólo la clave."
+
+#: includes/admin.php:344
+msgid "Optionally define the default on/off status of the checkboxes by putting a 1 (checked) or 0 (not checked) on each line that corresponds with the options."
+msgstr "Opcionalmente, define el estado activado/desactivado por defecto de las casillas de verificación poniendo un 1 (marcada) o un 0 (no marcada) en cada línea que se corresponda con las opciones."
+
+#: includes/admin.php:318
+msgid "Wrap each item with label element"
+msgstr "Envolver cada elemento con la etiqueta label"
+
+#: includes/admin.php:311
+msgid "Label"
+msgstr "Etiqueta"
+
+#: includes/admin.php:304
+msgid "Put a label first, an input last"
+msgstr "Pon una etiqueta primero, la entrada de campo al final"
+
+#: includes/admin.php:297
+msgid "Reverse"
+msgstr "Al revés"
+
+#: includes/admin.php:283
+msgid "Disable the first blank option from being selectable in the drop-down"
+msgstr "Desactivar que se pueda seleccionar la primera opción en blanco del menú desplegable"
+
+#: includes/admin.php:276
+msgid "Disable First Option"
+msgstr "Desactivar primera opción"
+
+#: includes/admin.php:269 includes/admin.php:287 includes/admin.php:369
+msgid "View Dynamic Select documentation"
+msgstr "Consulta la documentación de selección dinámica"
+
+#: includes/admin.php:266 includes/admin.php:284
+msgid "Optional. Only works if \"First Option\" is checked."
+msgstr "Opcional. Solo funciona si «Primera opción» está marcada."
+
+#: includes/admin.php:265
+msgid "Hide the first blank option from being visible in the drop-down"
+msgstr "Ocultar la primera opción en blanco del menú desplegable"
+
+#: includes/admin.php:258
+msgid "Hide First Option"
+msgstr "Ocultar primera opción"
+
+#: includes/admin.php:222
+msgid "Optionally define a label for the first option."
+msgstr "Opcional. Define una etiqueta para la primera opción."
+
+#: includes/admin.php:221
+msgid "First Option Label"
+msgstr "Etiqueta de la primera opción"
+
+#: includes/admin.php:213
+msgid "Insert a blank item as the first option"
+msgstr "Inserta un elemento en blanco como primera opción"
+
+#: includes/admin.php:206
+msgid "First Option"
+msgstr "Primera opción"
+
+#: includes/admin.php:199
+msgid "Allow user to select multiple options"
+msgstr "Permitir al usuario seleccionar varias opciones"
+
+#: includes/admin.php:192
+msgid "Multiple Options"
+msgstr "Múltiples opciones"
+
+#: includes/admin.php:163
+msgid "If shortcode, it must return only option or optgroup HTML."
+msgstr "Si es shortcode, debe devolver solo el HTML de los elementos option o optgroup."
+
+#: includes/admin.php:155
+msgid "If shortcode, it must return only option or optgroup HTML and can override the first option and select default settings here."
+msgstr "Si es un shortcode, debe devolver solo el HTML de los elementos option o optgroup. Puedes anular la configuración de la primera opción y valor por defecto aquí."
+
+#: includes/admin.php:154 includes/admin.php:162
+msgid "If static text, use one option per line. Can define static key/value pairs using pipes."
+msgstr "Si es texto estático, usa una opción por línea. Puedes definir pares de claves/valores separados por una barra vertical."
+
+#: includes/admin.php:153 includes/admin.php:161
+msgid "Dynamic options"
+msgstr "Opciones dinámicas"
+
+#: includes/admin.php:92
+msgid "View this form-tag on the DTX Documentation website"
+msgstr "Ver esta etiqueta de formulario en la web de documentación de DTX"
+
+#: includes/admin.php:84
+msgid "Generate a form-tag for %s with a dynamic default value. For more details, see %s fields in the %s."
+msgstr "Genera una etiqueta de formulario para %s con un valor por defecto dinámico. Para más detalles, consulta %s en %s."
+
+#: contact-form-7-dynamic-text-extension.php:510
+msgid "Send"
+msgstr "Enviar"
+
+#: contact-form-7-dynamic-text-extension.php:507
+msgid "Clear"
+msgstr "Limpiar"
+
+#: contact-form-7-dynamic-text-extension.php:361
+msgid "&#8212;Please choose an option&#8212;"
+msgstr "&#8212;Por favor, elige una opción&#8212;"
+
+#: contact-form-7-dynamic-text-extension.php:165
+msgid "a submit button"
+msgstr "un botón de envío"
+
+#: contact-form-7-dynamic-text-extension.php:163
+msgid "dynamic submit"
+msgstr "envío dinámico"
+
+#: contact-form-7-dynamic-text-extension.php:160
+msgid "a date input field"
+msgstr "un campo de entrada de fecha"
+
+#: contact-form-7-dynamic-text-extension.php:158
+msgid "dynamic date"
+msgstr "fecha dinámica"
+
+#: contact-form-7-dynamic-text-extension.php:151
+msgid "a group of radio buttons"
+msgstr "un grupo de botones de selección"
+
+#: contact-form-7-dynamic-text-extension.php:149
+msgid "dynamic radio buttons"
+msgstr "botones de selección dinámicos"
+
+#: contact-form-7-dynamic-text-extension.php:142
+msgid "a group of checkboxes"
+msgstr "un grupo de casillas de verificación"
+
+#: contact-form-7-dynamic-text-extension.php:140
+msgid "dynamic checkboxes"
+msgstr "casillas de verificación dinámicas"
+
+#: contact-form-7-dynamic-text-extension.php:134
+msgid "a drop-down menu (i.e select input field)"
+msgstr "un menú desplegable (es decir, seleccionar un campo de entrada)"
+
+#: contact-form-7-dynamic-text-extension.php:132
+msgid "dynamic drop-down menu"
+msgstr "menú desplegable dinámico"
+
+#: contact-form-7-dynamic-text-extension.php:129
+msgid "a multi-line plain text input field"
+msgstr "un campo de entrada texto de varias líneas"
+
+#: contact-form-7-dynamic-text-extension.php:127
+msgid "dynamic textarea"
+msgstr "área de texto dinámica"
+
+#: contact-form-7-dynamic-text-extension.php:122
+msgid "dynamic range"
+msgstr "rango dinámico"
+
+#: contact-form-7-dynamic-text-extension.php:117
+msgid "dynamic number"
+msgstr "número dinámico"
+
+#: contact-form-7-dynamic-text-extension.php:114
+msgid "a single-line telephone number input field"
+msgstr "un campo de entrada de número de teléfono de una sola línea"
+
+#: contact-form-7-dynamic-text-extension.php:112
+msgid "dynamic tel"
+msgstr "teléfono dinámico"
+
+#: contact-form-7-dynamic-text-extension.php:109
+msgid "a single-line URL input field"
+msgstr "un campo de entrada de URL de una sola línea"
+
+#: contact-form-7-dynamic-text-extension.php:107
+msgid "dynamic URL"
+msgstr "URL dinámica"
+
+#: contact-form-7-dynamic-text-extension.php:104
+msgid "a single-line email address input field"
+msgstr "un campo de entrada de correo electrónico de una sola línea"
+
+#: contact-form-7-dynamic-text-extension.php:102
+msgid "dynamic email"
+msgstr "correo electrónico dinámico"
+
+#: contact-form-7-dynamic-text-extension.php:96
+msgid "a single-line plain text hidden input field"
+msgstr "un campo de entrada de texto oculto de una sola línea"
+
+#: contact-form-7-dynamic-text-extension.php:91
+msgid "a single-line plain text"
+msgstr "un campo de entrada de texto de una sola línea"
+
+#: includes/admin.php:430
+msgid "View DTX page load documentation"
+msgstr "Ver la documentación sobre la carga de páginas de DTX"
+
+#: includes/admin.php:426
+msgid "Get the dynamic value after the page has loaded"
+msgstr "Obtener el valor dinámico después de cargar la página"
+
+#: includes/admin.php:419
+msgid "Cache Compatible"
+msgstr "Compatible con caché"
+
+#: includes/admin.php:100
+msgid "Go to DTX Documentation website"
+msgstr "Ir a la documentación de DTX"
+
+#. Author of the plugin
+msgid "SevenSpark, AuRise Creative"
+msgstr "SevenSpark, AuRise Creative"
+
+#. Plugin URI of the plugin
+msgid "https://sevenspark.com/goods/contact-form-7-dynamic-text-extension"
+msgstr "https://sevenspark.com/goods/contact-form-7-dynamic-text-extension"
+
+#: includes/admin.php:411
+msgid "Do not let users edit this field"
+msgstr "No permitir que los usuarios editen este campo de formulario"
+
+#: includes/admin.php:404
+msgid "Read only attribute"
+msgstr "Atributo no editable"
+
+#: includes/admin.php:247
+msgid "View DTX placeholder documentation"
+msgstr "Ver documentación de texto de marcador de posición de DTX"
+
+#: includes/admin.php:224
+msgid "Dynamic placeholder"
+msgstr "Marcadores de posición dinámicos"
+
+#: includes/admin.php:184
+msgid "View DTX shortcode syntax documentation"
+msgstr "Ver documentación de la sintaxis del shortcode de DTX"
+
+#: includes/admin.php:144 includes/admin.php:226 includes/admin.php:349
+msgid "Can be static text or a shortcode."
+msgstr "Puede ser texto o un shortcode"
+
+#: includes/admin.php:101
+msgid "DTX knowledge base"
+msgstr "Documentación para DTX"
+
+#. Description of the plugin
+msgid "This plugin extends Contact Form 7 by adding dynamic form fields that accept any shortcode to generate default values and placeholder text. Requires Contact Form 7."
+msgstr "Este plugin amplía Contact Form 7 añadiendo campos de formulario dinámicos que aceptan cualquier shortcode para generar valores por defecto y texto de marcador de posición. Requiere Contact Form 7."
+
+#. Plugin Name of the plugin
+msgid "Contact Form 7 - Dynamic Text Extension"
+msgstr "Contact Form 7 - Dynamic Text Extension"
+
+#. Author URI of the plugin
+msgid "https://sevenspark.com"
+msgstr "https://sevenspark.com"
+
+#: includes/admin.php:468
+msgid "Insert Tag"
+msgstr "Insertar una etiqueta"
+
+#: includes/admin.php:390
+msgid "Class attribute"
+msgstr "Clase del atributo"
+
+#: includes/admin.php:377
+msgid "Id attribute"
+msgstr "ID del atributo"
+
+#: includes/admin.php:143
+msgid "Dynamic value"
+msgstr "Valor dinámico"
+
+#: includes/admin.php:131
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/admin.php:122
+msgid "Required field"
+msgstr "Campo obligatorio"
+
+#: includes/admin.php:116
+msgid "Field type"
+msgstr "Tipo de campo"
+
+#: contact-form-7-dynamic-text-extension.php:94
+msgid "dynamic hidden"
+msgstr "dinámico oculto"
+
+#: contact-form-7-dynamic-text-extension.php:89
+msgid "dynamic text"
+msgstr "texto dinámico"
